@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selenium>
+		<common>
+			<qcUrl>http://135.163.181.30/qcbin</qcUrl>
+			<qcUser>anagarwal</qcUser>
+			<qcPassword></qcPassword>			
+			<qcDomain>DEFAULT</qcDomain>
+			<qcProject>eComQA</qcProject>
+			<tGuardLogin>true</tGuardLogin>
+			<implicitWait>30000</implicitWait>
+			<highWait>20000</highWait>
+			<medWait>10000</medWait>
+			<lowWait>5000</lowWait>
+			<ogValidate>No</ogValidate>
+			<ogUser></ogUser>
+			<ogPassword></ogPassword>
+			<ogWirelessURL></ogWirelessURL>
+		</common>
+
+		<chrome1>
+			<calendar>mHR_Regression</calendar>
+			<ncURL>https://finalstage.att.com/shopmobile</ncURL>
+			<ecURL>http://10.32.153.5:9080/netbank/engine</ecURL>
+			<agilePackage>pckgNetBankRegression</agilePackage>
+			<qcPackage>HardRock</qcPackage>
+			<qcTestSetFolder>Root\\PlayGround\\Anup - Playground</qcTestSetFolder>
+			<qcTestSet>SeleniumReport</qcTestSet>
+			<clearX></clearX>
+		</chrome1>
+
+		<chrome2>
+			<calendar>H2_REGRESSION_NC2</calendar>
+			<ncURL>https://tst03.stage.att.com/shop</ncURL>
+			<ecURL>https://tst03.stage.att.com/shopmobile/login/login.html</ecURL>
+			<agilePackage>pckgH2Regression</agilePackage>
+			<qcPackage>HardRock</qcPackage>
+			<qcTestSetFolder>Root\PlayGround\Anup - Playground</qcTestSetFolder>
+			<qcTestSet>SeleniumReport</qcTestSet>			
+			<clearX>A</clearX>
+		</chrome2>
+
+		<chrome3>
+			<calendar>H2_REGRESSION_NC3</calendar>
+			<ncURL>https://tst03.stage.att.com/shop</ncURL>
+			<ecURL>https://tst03.stage.att.com/shopmobile/login/login.html</ecURL>
+			<agilePackage>pckgH2Regression</agilePackage>
+			<qcPackage>HardRock</qcPackage>
+			<qcTestSetFolder>Root\PlayGround\Anup - Playground</qcTestSetFolder>
+			<qcTestSet>SeleniumReport</qcTestSet>			
+			<clearX>A</clearX>
+		</chrome3>
+		
+		<firefox1>
+			<calendar>mHR_Regression</calendar>
+			<ncURL>https://finalstage.att.com/shopmobile</ncURL>
+			<ecURL>http://10.32.153.5:9080/netbank/engine</ecURL>
+			<agilePackage>pckgNetBankRegression</agilePackage>
+			<qcPackage>HardRock</qcPackage>
+			<qcTestSetFolder>Root\\PlayGround\\Anup - Playground</qcTestSetFolder>
+			<qcTestSet>SeleniumReport</qcTestSet>
+			<clearX></clearX>
+		</firefox1>
+
+		<ie1>
+			<calendar>mHR_Regression</calendar>
+			<ncURL>https://finalstage.att.com/shopmobile</ncURL>
+			<ecURL>http://10.32.153.5:9080/netbank/engine</ecURL>
+			<agilePackage>pckgNetBankRegression</agilePackage>
+			<qcPackage>HardRock</qcPackage>
+			<qcTestSetFolder>Root\\PlayGround\\Anup - Playground</qcTestSetFolder>
+			<qcTestSet>SeleniumReport</qcTestSet>
+			<clearX></clearX>
+		</ie1>
+
+		<android1>
+			<ip>http://192.168.1.45:8080/wd/hub</ip>
+			<calendar>mHR_Regression</calendar>
+			<ncURL>https://tst06.stage.att.com/shopmobile</ncURL>
+			<ecURL>https://tst06.stage.att.com/shopmobile/login/login.html</ecURL>
+			<agilePackage>pckgMobileHardRock</agilePackage>
+			<qcPackage>HardRock</qcPackage>
+			<qcTestSetFolder>Root\\PlayGround\\Anup - Playground</qcTestSetFolder>
+			<qcTestSet>SeleniumReport</qcTestSet>
+			<clearX></clearX>
+		</android1>
+
+</selenium>
